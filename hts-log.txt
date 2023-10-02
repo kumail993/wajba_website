@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 12 Apr 2023 20:59:36 at http://sun-themes.com/html/fooday/home-shop.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://sun-themes.com/html/fooday/home-shop.html -O1 "D:\fyp projects\project04\fyp project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:08:45	Error: 	"Not Found" (404) at link sun-themes.com/html/fooday/assets/css/images/404/404_bg.jpg (from sun-themes.com/html/fooday/assets/css/color/colordefault.css)
+21:08:45	Error: 	"Not Found" (404) at link sun-themes.com/html/fooday/assets/css/images/service/service-image-01.png (from sun-themes.com/html/fooday/assets/css/color/colordefault.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 9 seconds : 295 links scanned, 292 files written (15566255 bytes overall) [13149410 bytes received at 23951 bytes/sec], 3334115 bytes transferred using HTTP compression in 85 files, ratio 24%, 3.0 requests per connection
+(2 errors, 0 warnings, 0 messages)
