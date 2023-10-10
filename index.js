@@ -9,8 +9,12 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 const FetchRestaurantsRouter=require('./restaurants.js');
 const FetchMenuRouter=require('./menu.js');
+const FetchReviewRouter=require('./reviews');
+const ContactUsRouter=require('./contactus.js');
 
 app.use('/Api',FetchRestaurantsRouter);
 app.use('/Api',FetchMenuRouter);
+app.use('/Api',FetchReviewRouter);
+app.use('/Api',ContactUsRouter);
 app.listen(3000,()=> console.log('your server is running on port 3000'))
 
